@@ -64,22 +64,34 @@ namespace Exelon2
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int ButtonSignInStyle = 2130837504;
+			public const int ButtonPayBillStyle = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int ButtonSignUpStyle = 2130837505;
+			public const int ButtonSignInStyle = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int edit_text_style = 2130837506;
+			public const int ButtonSignUpStyle = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int Icon = 2130837507;
+			public const int ButtonViewUsageStyle = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int myImage = 2130837508;
+			public const int edit_text_style = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int ProgressBarStyle = 2130837509;
+			public const int Icon = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int myImage = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int myPayBill = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int myViewUsage = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int ProgressBarStyle = 2130837513;
 			
 			static Drawable()
 			{
@@ -98,16 +110,22 @@ namespace Exelon2
 			public const int btnDialogEmail = 2131165186;
 			
 			// aapt resource value: 0x7f070006
-			public const int btnSignIn = 2131165190;
+			public const int btnPayBill = 2131165190;
 			
-			// aapt resource value: 0x7f070008
-			public const int btnSignUp = 2131165192;
+			// aapt resource value: 0x7f070009
+			public const int btnSignIn = 2131165193;
+			
+			// aapt resource value: 0x7f07000b
+			public const int btnSignUp = 2131165195;
+			
+			// aapt resource value: 0x7f070007
+			public const int btnViewUsage = 2131165191;
 			
 			// aapt resource value: 0x7f070000
 			public const int txtAccountID = 2131165184;
 			
-			// aapt resource value: 0x7f070005
-			public const int txtCreateAccount = 2131165189;
+			// aapt resource value: 0x7f070008
+			public const int txtCreateAccount = 2131165192;
 			
 			// aapt resource value: 0x7f070004
 			public const int txtEmail = 2131165188;
@@ -115,8 +133,11 @@ namespace Exelon2
 			// aapt resource value: 0x7f070003
 			public const int txtFirstName = 2131165187;
 			
-			// aapt resource value: 0x7f070007
-			public const int txtOr = 2131165191;
+			// aapt resource value: 0x7f070005
+			public const int txtHomeScreen = 2131165189;
+			
+			// aapt resource value: 0x7f07000a
+			public const int txtOr = 2131165194;
 			
 			// aapt resource value: 0x7f070001
 			public const int txtPassword = 2131165185;
@@ -141,7 +162,10 @@ namespace Exelon2
 			public const int dialog_sign_up = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Main = 2130903042;
+			public const int HomeScreenDesign = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Main = 2130903043;
 			
 			static Layout()
 			{
