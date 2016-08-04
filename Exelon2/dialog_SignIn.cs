@@ -14,6 +14,8 @@ namespace Exelon2
 {
     class dialog_SignIn : DialogFragment
     {
+        private Button mBtnSignIn;
+
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             base.OnCreateView(inflater, container, savedInstanceState);
@@ -30,5 +32,7 @@ namespace Exelon2
             Dialog.Window.Attributes.WindowAnimations = Resource.Style.dialog_animation; //sets the animation
 
         }
-    }
+
+
+}
 }

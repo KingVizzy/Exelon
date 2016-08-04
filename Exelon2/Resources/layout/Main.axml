@@ -8,16 +8,16 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <TextView
-        android:text="Create An Account"
+        android:text="Login"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_weight="20"
         android:layout_height="0dp"
         android:textColor="#368DEB"
         android:id="@+id/txtCreateAccount"
-        android:gravity="center"
+        android:gravity="left"
         android:textStyle="bold"
-        android:textSize="35sp" />
+        android:textSize="25sp" />
     <Button
         android:text="Sign In"
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
         android:background="@drawable/ButtonSignInStyle"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:textSize="25sp" />
+        android:textSize="15sp" />
     <TextView
         android:text="Or"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -38,16 +38,17 @@
         android:id="@+id/txtOr"
         android:gravity="center" />
     <Button
-        android:text="Sign Up With Email"
+        android:text="Sign Up"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="15"
         android:id="@+id/btnSignUp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:textSize="25sp"
+        android:textSize="15sp"
         android:drawableLeft="@drawable/myimage"
         android:background="@drawable/ButtonSignUpStyle" />
+<!--
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -62,4 +63,5 @@
             android:layout_centerInParent="true"
             android:indeterminate="true" />
     </RelativeLayout>
+    -->
 </LinearLayout>

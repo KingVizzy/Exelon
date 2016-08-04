@@ -11,7 +11,7 @@ namespace Exelon2
     [Activity(Label = "Exelon2", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        private Button mBtnSignUp;
+        private Button mBtnSignUp, mBtnSignIn;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -29,6 +29,15 @@ namespace Exelon2
                     dialog_SignUp signUpDialog = new dialog_SignUp();
                     signUpDialog.Show(transaction, "dialog fragment");
                 };
+
+            mBtnSignIn = FindViewById<Button>(Resource.Id.btnSignIn);
+
+            mBtnSignIn.Click += (object sender, EventArgs args) =>
+            {
+                FragmentTransaction transaction = FragmentManager.BeginTransaction();
+                dialog_SignIn signInDialog = new dialog_SignIn();
+                signInDialog.Show(transaction, "dialog fragment");
+            };
         }
 
        

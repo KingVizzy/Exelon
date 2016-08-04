@@ -79,7 +79,10 @@ namespace Exelon2
 			public const int myImage = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int ProgressBarStyle = 2130837509;
+			public const int payBill = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int ProgressBarStyle = 2130837510;
 			
 			static Drawable()
 			{
@@ -94,32 +97,32 @@ namespace Exelon2
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070003
-			public const int btnDialogEmail = 2131165187;
-			
-			// aapt resource value: 0x7f070005
-			public const int btnSignIn = 2131165189;
-			
-			// aapt resource value: 0x7f070007
-			public const int btnSignUp = 2131165191;
-			
-			// aapt resource value: 0x7f070008
-			public const int progressBar1 = 2131165192;
-			
-			// aapt resource value: 0x7f070004
-			public const int txtCreateAccount = 2131165188;
-			
-			// aapt resource value: 0x7f070001
-			public const int txtEmail = 2131165185;
-			
-			// aapt resource value: 0x7f070000
-			public const int txtFirstName = 2131165184;
+			// aapt resource value: 0x7f070002
+			public const int btnDialogEmail = 2131165186;
 			
 			// aapt resource value: 0x7f070006
-			public const int txtOr = 2131165190;
+			public const int btnSignIn = 2131165190;
 			
-			// aapt resource value: 0x7f070002
-			public const int txtPassword = 2131165186;
+			// aapt resource value: 0x7f070008
+			public const int btnSignUp = 2131165192;
+			
+			// aapt resource value: 0x7f070000
+			public const int txtAccountID = 2131165184;
+			
+			// aapt resource value: 0x7f070005
+			public const int txtCreateAccount = 2131165189;
+			
+			// aapt resource value: 0x7f070004
+			public const int txtEmail = 2131165188;
+			
+			// aapt resource value: 0x7f070003
+			public const int txtFirstName = 2131165187;
+			
+			// aapt resource value: 0x7f070007
+			public const int txtOr = 2131165191;
+			
+			// aapt resource value: 0x7f070001
+			public const int txtPassword = 2131165185;
 			
 			static Id()
 			{
@@ -142,6 +145,9 @@ namespace Exelon2
 			
 			// aapt resource value: 0x7f030002
 			public const int Main = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int payBill = 2130903043;
 			
 			static Layout()
 			{
