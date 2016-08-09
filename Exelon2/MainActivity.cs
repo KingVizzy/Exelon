@@ -27,7 +27,7 @@ namespace Exelon2
                     //Pull up dialog box
                     FragmentTransaction transaction = FragmentManager.BeginTransaction();
                     dialog_SignUp signUpDialog = new dialog_SignUp();
-                    signUpDialog.Show(transaction, "dialog fragment");
+                    signUpDialog.Show(transaction, "sign in");
                 };
 
             mBtnSignIn = FindViewById<Button>(Resource.Id.btnSignIn);
@@ -37,6 +37,9 @@ namespace Exelon2
                 FragmentTransaction transaction = FragmentManager.BeginTransaction();
                 dialog_SignIn signInDialog = new dialog_SignIn();
                 signInDialog.Show(transaction, "dialog fragment");
+
+                //HomeScreen homeScreen = new Exelon2.HomeScreen();
+                //StartActivity(typeof(HomeScreen));
             };
         }
 

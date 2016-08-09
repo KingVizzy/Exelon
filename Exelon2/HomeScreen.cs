@@ -12,35 +12,44 @@ using Android.Widget;
 
 namespace Exelon2
 {
-    class HomeScreen :Activity
+    class HomeScreen : DialogFragment
     {
-        private Button bill, stats;
 
-        protected override void OnCreate(Bundle bundle)
+
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            base.OnCreate(bundle);
+            base.OnCreateView(inflater, container, savedInstanceState);
+            Button bill, stats;
 
-            // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.HomeScreenDesign);
+            var View = inflater.Inflate(Resource.Layout.HomeScreenDesign, container, false);
 
-            bill = FindViewById<Button>(Resource.Id.bill);
+            bill = View.FindViewById<Button>(Resource.Id.btnPayBill);
 
             bill.Click += (object sender, EventArgs args) =>
             {
                 //Pull up dialog box
                 FragmentTransaction transaction = FragmentManager.BeginTransaction();
-                dialogBill billDialog = new dialogBill();
-                dialogBill.Show(transaction, "dialog fragment");
+                //dialogBill billDialog = new dialogBill();
+                //dialogBill.Show(transaction, "dialog fragment");
             };
 
-            stats = FindViewById<Button>(Resource.Id.stats);
+            stats = View.FindViewById<Button>(Resource.Id.btnViewUsage);
 
             stats.Click += (object sender, EventArgs args) =>
             {
                 FragmentTransaction transaction = FragmentManager.BeginTransaction();
-                dialogStats statsDialog = new dialogStats();
-                dialogStats.Show(transaction, "dialog fragment");
+                //dialogStats statsDialog = new dialogStats();
+                //dialogStats.Show(transaction, "dialog fragment");
             };
+
+            //Button mBtnSignIn =  View.FindViewById<Button>(Resource.Id.btnSignUp);
+            //mBtnSignIn.Click += (object sender, EventArgs args) => 
+            //{
+            //   Intent intent = new Intent(Context, Home.class);
+            //  context.startActivity(intent);
+            //};
+
+            return View;
         }
 
 

@@ -106,26 +106,26 @@ namespace Exelon2
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f070005
+			public const int btnDialogEmail = 2131165189;
+			
+			// aapt resource value: 0x7f070007
+			public const int btnPayBill = 2131165191;
+			
 			// aapt resource value: 0x7f070002
-			public const int btnDialogEmail = 2131165186;
-			
-			// aapt resource value: 0x7f070006
-			public const int btnPayBill = 2131165190;
-			
-			// aapt resource value: 0x7f070009
-			public const int btnSignIn = 2131165193;
+			public const int btnSignIn = 2131165186;
 			
 			// aapt resource value: 0x7f07000b
 			public const int btnSignUp = 2131165195;
 			
-			// aapt resource value: 0x7f070007
-			public const int btnViewUsage = 2131165191;
+			// aapt resource value: 0x7f070008
+			public const int btnViewUsage = 2131165192;
 			
 			// aapt resource value: 0x7f070000
 			public const int txtAccountID = 2131165184;
 			
-			// aapt resource value: 0x7f070008
-			public const int txtCreateAccount = 2131165192;
+			// aapt resource value: 0x7f070009
+			public const int txtCreateAccount = 2131165193;
 			
 			// aapt resource value: 0x7f070004
 			public const int txtEmail = 2131165188;
@@ -133,8 +133,8 @@ namespace Exelon2
 			// aapt resource value: 0x7f070003
 			public const int txtFirstName = 2131165187;
 			
-			// aapt resource value: 0x7f070005
-			public const int txtHomeScreen = 2131165189;
+			// aapt resource value: 0x7f070006
+			public const int txtHomeScreen = 2131165190;
 			
 			// aapt resource value: 0x7f07000a
 			public const int txtOr = 2131165194;

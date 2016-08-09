@@ -14,13 +14,22 @@ namespace Exelon2
 {
     class dialog_SignIn : DialogFragment
     {
-        private Button mBtnSignIn;
+        
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             base.OnCreateView(inflater, container, savedInstanceState);
 
             var View = inflater.Inflate(Resource.Layout.dialog_sign_in, container, false);
+
+            Button mBtnSignIn =  View.FindViewById<Button>(Resource.Id.btnSignIn);
+            mBtnSignIn.Click += (object sender, EventArgs args) => 
+            {
+                FragmentTransaction transaction = FragmentManager.BeginTransaction();
+                HomeScreen home = new HomeScreen();
+                home.Show(transaction, "home screen");
+
+            };
 
             return View;
         }
@@ -33,6 +42,13 @@ namespace Exelon2
 
         }
 
+        public void login(View view)
+        {
+            //Intent intent = new Intent(this, Home.class );
+            //startActivity(Intent);
+        }
 
-}
+        
+            };
+
 }
