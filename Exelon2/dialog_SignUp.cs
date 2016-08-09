@@ -27,6 +27,7 @@ namespace Exelon2
             Dialog.Window.RequestFeature(WindowFeatures.NoTitle); //Sets the title bar to invisible
             base.OnActivityCreated(savedInstanceState);
             Dialog.Window.Attributes.WindowAnimations = Resource.Style.dialog_animation; //sets the animation
+
         }
     }
 }
