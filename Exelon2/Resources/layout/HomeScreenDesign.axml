@@ -27,7 +27,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:textSize="15sp"
-        android:drawableLeft="@drawable/myPayBill"
+        android:drawableLeft="@drawable/myPayBill2"
         android:background="@drawable/ButtonPayBillStyle" />
     <Button
         android:text="View Usage"
@@ -38,7 +38,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:textSize="15sp"
-        android:drawableLeft="@drawable/Icon"
+        android:drawableLeft="@drawable/myUsage2"
         android:background="@drawable/ButtonViewUsageStyle" />
 <!--
     <RelativeLayout

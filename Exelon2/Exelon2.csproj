@@ -107,6 +107,8 @@
     <AndroidResource Include="Resources\drawable\myImage.png" />
     <AndroidResource Include="Resources\drawable\myPayBill.png" />
     <AndroidResource Include="Resources\drawable\myViewUsage.png" />
+    <AndroidResource Include="Resources\drawable\myPayBill2.png" />
+    <AndroidResource Include="Resources\drawable\myUsage2.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Icon.png" />

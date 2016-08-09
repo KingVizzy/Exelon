@@ -88,10 +88,16 @@ namespace Exelon2
 			public const int myPayBill = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int myViewUsage = 2130837512;
+			public const int myPayBill2 = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int ProgressBarStyle = 2130837513;
+			public const int myUsage2 = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int myViewUsage = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int ProgressBarStyle = 2130837515;
 			
 			static Drawable()
 			{
